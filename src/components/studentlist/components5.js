@@ -27,7 +27,7 @@ export default function Components5(props) {
       <td>{props.details.email}</td>
       <td>{props.details.studentid}</td>
       <td>
-        <button class="btn btn-primary btn-sm mx-2 text-light">Edit</button>
+       <a href={`/EditStudent/${props.details._id}`} > <button class="btn btn-primary btn-sm mx-2 text-light">Edit</button></a>
         <button class="btn btn-danger btn-sm text-light" onClick={handleDelete}>Delete</button>
       </td>
       {/* <td><button class="btn bg-danger" onClick={handleClick}>Button</button></td> */}

@@ -30,7 +30,7 @@ function CreateStudents(){
         <div>
             <Components1/>
             <form onSubmit={handleSubmit}>
-            <Components2 getDetails={getDetails}/>
+            <Components2 getDetails={getDetails} button="Create Student" heading="Create Student"/>
             </form>
         </div>
     )
