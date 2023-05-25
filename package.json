@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Sahas-kr.github.io/react-project-vercel",
-  "name": "frontend",
+  "homepage": "https://Sahas-kr.github.io/crudApp",
+  "name": "crudApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
